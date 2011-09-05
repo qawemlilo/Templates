@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Template</name>
+	<creationDate>2011-09-05</creationDate>
+	<author>Qawelesizwe Mlilo</author>
+	<authorEmail>qawemlilo@gmail.com</authorEmail>
+	<authorUrl>http://qawemlilo.rflab.co.za/</authorUrl>
+	<copyright>(C)2011 - Raging Flame</copyright>
+	<license>(C)2011 - Raging Flame</license>
+
+	<version>0.0.1</version>
+
+	<description>Describe component....</description>
+
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>template.php</filename>
+		<filename>index.html</filename>
+		<filename>views/index.html</filename>
+		<filename>views/template/index.html</filename>
+		<filename>views/template/view.html.php</filename>
+		<filename>views/template/tmpl/default.php</filename>
+		<filename>views/template/tmpl/index.html</filename>
+		<!-- Folders -->
+		<folder>js</folder>
+		<folder>css</folder>
+	</files>
+
+	<administration>
+		<menu>Template</menu>
+
+		<files folder="admin">
+			<filename>template.php</filename>
+			<filename>index.html</filename>
+		</files>  
+	</administration>
+</install>
